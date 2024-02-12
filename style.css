@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "montserrat";
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main-1{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(157, 53, 53);
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color:gainsboro;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    background-color: gainsboro;
+    overflow: hidden;
+}
+.centre{
+    width: 100%;
+    height: 100vh;
+    background-color: #111;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    background-color:  gainsboro;
+    overflow: hidden;
+}
+.top-h{
+    position: absolute;
+    bottom: -30%;
+    font-size: 12vw;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.bottom-h{
+    position: absolute;
+    top: -32%;
+    font-size: 12vw;
+    font-weight: 800;
+    text-transform: uppercase;
+}
